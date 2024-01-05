@@ -1,0 +1,28 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs and other generated files
+logs/
+*.log
+npm-debug.log*
+
+# Ignore environment variables file
+.env
+
+# Ignore dependency directories
+jspm_packages/
+typings/
+
+# Ignore distribution directory
+dist/
+
+# Ignore local configuration
+config/local.json
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
